@@ -1,29 +1,110 @@
 <!DOCTYPEhtml>
 <html>
 <head>
-
 <title>Ubisoft</title>
-
 <style>
-background{color:#f2f2f2;}
-h1{color:black;
+body{background-color:#e6e6e6;}
+div.container {
+    width: 120%;
+    border: 1px solid gray;
+}
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 200px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+h1{  color:blue;
      family-font:Calibri;
      font-size:120%}
-
+h1.error{
+    color: black;
+}
+#p01{color:#993300;
+}
+#p02{color:#b30000;}
+pre{font-family:verdana;
+    font-size:120%}
 </style>
-
 </head>
-
 <body>
+<div class="flex-container">
+<header>
 <h1>UBISOFT </h1> 
+</header>
+<nav class="nav">
+<ul>
+<li><a href="mywebsite.html">
+>><img src="http://www.gamasutra.com/db_area/images/news/2016/Sep/282131/Ubisoft%20(1).jpg" alt="MyWebsite" style="width:46px;height:42px;border:0">
+<<</a>
+<li><a href="https://www.ubisoft.com/en-GB/game/steep/#">Games</a></li>
+<li><a href="http://forums.ubi.com/">Forum</a></li>
+<li><a href="https://www.facebook.com/ubisoft/">Facebook</a></li>
+</ul>
+</nav>
+<article class="article">
+<h1 class="error">Ubisoft info</h1>
+<pre>Ubisoft Entertainment SA <strong>(formerly Ubi Soft Entertainment Software until 2003, commonly referred to as Ubisoft)</strong>
+     is a French multinational video game publisher, headquartered in Rennes, France. It is known for developing games 
+     for several acclaimed video game franchises including Assassin's Creed, Far Cry, Tom Clancy's Ghost Recon, Just Dance, 
+     Rainbow Six, Prince of Persia, Rayman, Watch Dogs and Tom Clancy's Splinter Cell.</pre>
+<img src="http://www.gamasutra.com/db_area/images/news/2016/Sep/282131/Ubisoft%20(1).jpg" alt="MyWebsite" style="width:200px;height:200px;border:0">
+<h2 id="p01">History</h2>
+<pre id="p02">
+In March 1986, five brothers of the Guillemot family founded the video game publisher, 
+Ubisoft, in Carentoir, a small village located in the Morbihan department of the Brittany region, in France.
+Yves Guillemot soon made deals with Electronic Arts, Sierra On-Line, and MicroProse to distribute their games in France. 
 
-<hr>
-<img src="http://static.giantbomb.com/uploads/square_small/0/26/11187-ubilogo.jpg" height="125" widht="120"
-<br>
-<br>
-<p></p>
-<li>
-</li>
+By the end of the decade, Ubisoft began expanding to other markets, including the United States, the United Kingdom, and Germany. 
+They entered the video game distribution and wholesale markets, and by 1993 they had become the largest distributor of video games 
+in France. 
 
+In the early 1990s, Ubisoft initiated its in-house game development program, which led to the 1994 opening of a studio in Montreuil, France. 
+It later became their administrative and commercial head office, even as the company continues to register its headquarters in Rennes. 
+Ubisoft became a publicly traded company in 1996 and continued its expansion around the globe, opening locations in Annecy, 
+Shanghai, Milan and Montreal.
 
+In the late 1990s and early 2000s, Ubisoft committed itself to online games by supporting Uru: Ages Beyond Myst, The Matrix Online, 
+and the European and Chinese operation of EverQuest. The publisher established an online division. However, in February 2004, Ubisoft 
+cancelled the online portion of Uru and backed out of the publishing deal on The Matrix Online.
+The company is noted for its teams of female game developers/testers, known as the Frag Dolls.
+
+In March 2001, Gores Technology Group sold The Learning Company's entertainment division 
+(which includes games originally published by Broderbund, Mattel, Mindscape and Strategic Simulations, Inc.) to them. 
+</pre>
+<img src="http://static.giantbomb.com/uploads/square_small/0/26/11187-ubilogo.jpg" height="200" widht="220">
+<h1>Server</h1>
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+<p id="demo"></p>
+</article>
+<footer>Copyright © UBISOFT</footer>
+</div>
 </body>
+</html>
